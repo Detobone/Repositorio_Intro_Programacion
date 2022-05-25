@@ -1,0 +1,42 @@
+STAGES DE GIT
+Working directory   staging area   Local Repository   
+
+
+git init
+git status
+git add
+git rm --cached // Se delvuelve del staging al working area
+git commit -m "Nombre del archivo"
+git log --oneline //Esto me va a dar un código al inicio de cada rama que es el que se utliza en caso de que se quiera volver a una de las versiones anteriores 
+
+git branch me permimte ver todas las ramas
+git checkout me permite moverme momentaneamente entre las ramas 
+git merge me permite hacer merge de ramas (Opcional no se evalua)
+
+COMO CORREGIR EL EMAIL O EL NOMBRE DE FORMA LOCAL?
+Ir a la carperta .git 
+Se ingresa al arhivo config con el comando nano
+Edito el nombre o email, guardo y sale. 
+
+RAMAS: Una rama es una secuencia de commits, no se considera rama hasta que se haya ejecutado el commando git commit -m
+
+git solo hace seguimiento sobre archivos no so sobre carpetas 
+
+VOLVER A OTRA VERSION
+
+se hace un git log --oneline para saber el código de la version a la que quiero volver (Se copia con ctrl +shift + c)
+git checkout y el codigo que se copio anteriormente. 
+
+
+
+Grupo: 6 
+
+David Tobón Echeverry
+Carlos Damian LopezFacilitador/a
+Rocio Julio Ballesteros
+Bella Osorio
+Juan Carlos Yepes García
+Carlos Fernando Ortiz Sab...
+
+Tarea: buscar la diferencia entre git switch y git checkout 
+
